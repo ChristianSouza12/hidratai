@@ -1,0 +1,147 @@
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(-70deg,  #98c3ed 70% , #318ce7 30%);
+    
+}
+
+.box {
+    width: 70%;
+    height: 80vh; /* Defina a altura da div "box" como 100% */
+    margin-left: 15%;
+    margin-top: 85px;
+    display: flex;
+    box-shadow: -1px 0px 10px 1px rgba(0,0,0,0.4);
+    -webkit-box-shadow: -1px 0px 10px 1px rgba(0,0,0,0.4);
+    -moz-box-shadow: -1px 0px 10px 1px rgba(0,0,0,0.4);
+}
+
+.left {
+    width: 40%;
+    padding: 5%;
+    background-color: #6aa9e9;
+    color: white;
+}
+
+.right {
+    width: 60%;
+    padding: 5%;
+    background-color: #afcdea;
+   
+    
+}
+
+h3 {
+    font-size: 40px;
+    color: white;
+    margin-top: 5%;
+   width: 10px;
+}
+h4{
+    margin-top: -40px;
+    margin-left: -40px;
+    color:#11508f;
+}
+
+h3 span {
+    color: #11508f;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 2.5%;
+}
+
+h2 {
+    color: #318ce7;
+    margin-bottom: 30px;
+    margin-left: 200px;
+}
+
+h5 {
+    font-size: 13px;
+    color: grey;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    
+}
+select {
+    height: 30px;
+    width: 300px;
+    margin-left: 200px;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+    margin-left: 200px;
+}
+
+button {
+    height: 50px;
+    width: 300px;
+    background-color: #318ce7;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 200px;
+    cursor:pointer;
+    transition: all 0.7s ease;
+  
+
+}
+
+button:hover{
+   
+ 
+    transition: .2s;
+    background-color: white;
+    color:#318ce7;
+}
+
+button:active{
+    opacity: .7;
+    transition: .2s;
+}
+
+h4 span{
+    color:white;
+}
+
+.result{
+    margin-top: 80px;
+    margin-left: 34%;
+    color:#505050;
+}
+
+.converted-value{
+    color: #11508f;
+    margin-top: 40px;
+    margin-left: 15%;
+    font-size: 40px;
+    font-weight: 600;
+}
+.texto{
+    margin-bottom: 10px;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
